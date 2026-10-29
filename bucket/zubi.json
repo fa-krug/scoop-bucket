@@ -1,0 +1,20 @@
+{
+  "version": "0.1.1",
+  "description": "Read and edit the Reminders, calendars and Notes a Mac running Zubi shares",
+  "homepage": "https://fa-krug.github.io/zubi/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.1/zubi_0.1.1_windows_amd64.zip",
+      "hash": "6f72eee454f4805be13e1e928d60b157175612be166b2665e1e073f265610228",
+      "extract_dir": "zubi_0.1.1_windows_amd64"
+    },
+    "arm64": {
+      "url": "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.1/zubi_0.1.1_windows_arm64.zip",
+      "hash": "be47a7edddbc334cb42463f0acbf6232248b8bb9a53811b8b42158321c6f226f",
+      "extract_dir": "zubi_0.1.1_windows_arm64"
+    }
+  },
+  "bin": "zubi.exe",
+  "notes": "Configure it with: zubi config set url http://<your-mac>:8787 and zubi config set key -"
+}
