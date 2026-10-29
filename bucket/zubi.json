@@ -1,18 +1,18 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Read and edit the Reminders, calendars and Notes a Mac running Zubi shares",
   "homepage": "https://fa-krug.github.io/zubi/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.4/zubi_0.1.4_windows_amd64.zip",
-      "hash": "ebcaec4bed0a3887adb43028b0cc11b7dd75bd33a0d5d3f888235c72bfda7a03",
-      "extract_dir": "zubi_0.1.4_windows_amd64"
+      "url": "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.5/zubi_0.1.5_windows_amd64.zip",
+      "hash": "b17c036249c474b48050d8b5c47e8862a2aeeb1b992af1fcffcd831937a41505",
+      "extract_dir": "zubi_0.1.5_windows_amd64"
     },
     "arm64": {
-      "url": "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.4/zubi_0.1.4_windows_arm64.zip",
-      "hash": "d0074a7cdf25f999caf0fd02cdc867518f70d5d4cfc92fe47c32704a77d2e6b3",
-      "extract_dir": "zubi_0.1.4_windows_arm64"
+      "url": "https://github.com/fa-krug/zubi/releases/download/cli/v0.1.5/zubi_0.1.5_windows_arm64.zip",
+      "hash": "bd5e03bf8ba0f97d3dc3b3ae5b5c7e09bad8f30756087a7f11da22e4cf0a382c",
+      "extract_dir": "zubi_0.1.5_windows_arm64"
     }
   },
   "bin": "zubi.exe",
